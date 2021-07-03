@@ -1,0 +1,7 @@
+{
+  "name": "ION 1 - HelloWorld",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
