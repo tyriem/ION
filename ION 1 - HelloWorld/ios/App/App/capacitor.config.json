@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ION 1 - HelloWorld",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

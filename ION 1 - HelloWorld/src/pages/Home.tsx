@@ -7,15 +7,19 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Blank</IonTitle>
+          <IonTitle>TMRM FIRST MOBILE APP</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
+            <IonTitle size="large">TMRM: HelloWorld</IonTitle>
           </IonToolbar>
         </IonHeader>
+        <div><h1>HELLO WORLD!</h1></div>
+        <div><h2>VERSION 2.0 NOW WITH FAST RELOAD!</h2></div>
+        
+
         <ExploreContainer />
       </IonContent>
     </IonPage>
