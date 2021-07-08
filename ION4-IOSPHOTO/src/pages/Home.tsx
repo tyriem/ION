@@ -13,7 +13,7 @@ import { useState } from "react"; // IMPORT useState FROM react
 
 /// LOGIC ///
 
-// TODO: ADD TRY-CATCH TO LOGIC
+// TODO: #1 ADD TRY-CATCH TO LOGIC
 const Home: React.FC = () => {
   const [image, setImage] = useState<any>("");
 
