@@ -1,0 +1,7 @@
+{
+  "name": "ION5-SIDEMENU",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

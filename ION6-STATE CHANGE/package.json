@@ -1,0 +1,25 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@ionic/react": "5.6.11",
+    "@ionic/react-router": "5.6.11",
+    "history": "5.0.0",
+    "ionicons": "5.5.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router": "5.2.0",
+    "react-router-dom": "5.2.0",
+    "zustand": "^3.5.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}

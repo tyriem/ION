@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ION5-SIDEMENU",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
