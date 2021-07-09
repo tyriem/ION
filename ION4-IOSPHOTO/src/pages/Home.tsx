@@ -2,7 +2,7 @@ import {
   IonButton, //IMPORT Button Module
   IonContent,
   IonHeader,
-  IonImg, // IMPORT the Img Module
+  IonImg, // IMPORT Img Module
   IonPage,
   IonTitle,
   IonToolbar,
@@ -12,8 +12,6 @@ import { Camera, CameraResultType } from "@capacitor/camera"; // IMPORT Camera &
 import { useState } from "react"; // IMPORT useState FROM react
 
 /// LOGIC ///
-
-
 
 const Home: React.FC = () => {
   const [image, setImage] = useState<any>("");
@@ -46,6 +44,7 @@ const Home: React.FC = () => {
     
 
 /// RENDER ///
+
   return (
     <IonPage>
       <IonHeader>
