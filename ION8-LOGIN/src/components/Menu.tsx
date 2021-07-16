@@ -85,7 +85,8 @@ const Menu: React.FC = () => {
         <IonList id="inbox-list">
           <IonListHeader>Menu</IonListHeader>
           {/* DISPLAY EMAIL  */}
-          <IonNote><pre><u>{JSON.stringify(supabase.auth.user(), ['email'])}</u></pre></IonNote>
+          <IonNote><h2>{supabase.auth.user()?.email}</h2></IonNote> {/* ELVIS OP OPTION  */}
+          <IonNote><pre><u>{JSON.stringify(supabase.auth.user(), ['email'])}</u></pre></IonNote> {/* STRINGIFY OPTION */}
           
           {appPages.map((appPage, index) => {
             return (
