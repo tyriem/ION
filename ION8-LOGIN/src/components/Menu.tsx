@@ -86,8 +86,9 @@ const Menu: React.FC = () => {
           <IonListHeader>Menu</IonListHeader>
           {/* DISPLAY EMAIL  */}
           <IonNote><h2>{supabase.auth.user()?.email}</h2></IonNote> {/* ELVIS OP OPTION  */}
-          <IonNote><pre><u>{JSON.stringify(supabase.auth.user(), ['email'])}</u></pre></IonNote> {/*[DEPRECATED] STRINGIFY OPTION [DEPRECATED]*/}
-          
+          {/* DEPRECATED
+          <IonNote><pre><u>{JSON.stringify(supabase.auth.user(), ['email'])}</u></pre></IonNote>
+          DEPRECATED */}
           {appPages.map((appPage, index) => {
             return (
               <IonMenuToggle key={index} autoHide={false}>
