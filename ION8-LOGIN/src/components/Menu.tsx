@@ -75,16 +75,26 @@ const appPages: AppPage[] = [
   },
 ];
 
+
+
 const Menu: React.FC = () => {
   const location = useLocation();
+
+  
+  
+  
+
+
+
 
   return (
     <IonMenu contentId="main" type="overlay">
       <IonContent>
         <IonList id="inbox-list">
           <IonListHeader>Menu</IonListHeader>
-          {/* RENDER THE USER'S EMAIL  */}
-          <IonNote>{JSON.stringify(supabase.auth.user(), ['email'])}</IonNote>
+          {/* DISPLAY EMAIL  */}
+          <IonNote><pre><u>{JSON.stringify(supabase.auth.user(), ['email'])}</u></pre></IonNote>
+          
           {appPages.map((appPage, index) => {
             return (
               <IonMenuToggle key={index} autoHide={false}>
