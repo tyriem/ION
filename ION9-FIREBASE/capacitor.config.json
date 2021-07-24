@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ION9-FIREBASE",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

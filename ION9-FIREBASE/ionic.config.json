@@ -1,0 +1,7 @@
+{
+  "name": "ION9-FIREBASE",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
